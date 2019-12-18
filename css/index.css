@@ -113,3 +113,37 @@
     box-shadow: 6px 6px 0 0 white, -6px -6px 0 0 white, -6px 6px 0 0 white, 6px -6px 0 0 white;
     border-radius: 10px;
 }
+
+/* lol */
+#bwunnies {
+    color: white;
+}
+
+#bun-emoji {
+    color: white;
+    white-space: nowrap
+}
+
+#horribunnies-text {
+    color: white;
+    font-weight: bold;
+}
+
+.highlightCharacter {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #F6D051;
+}
+
+@media (max-width: 900px) {
+    .highlightCharacter {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .highlightCharacter {
+        font-size: 16px;
+    }
+}
