@@ -5,4 +5,25 @@
 
 .navbar-item {
     font-family: IndieFlower, sans-serif;
+    color: black;
+}
+
+.background-wrapper {
+    overflow: hidden;
+    height: 400px;
+}
+
+.background-slider {
+    position: relative;
+    width: 200vw;
+    height: 800px;
+    top: -400px;
+    background-image: url(../images/background.png);
+    background-repeat: repeat;
+    animation: slide 5s linear infinite;
+}
+
+@keyframes slide {
+    from { transform: translate(0px); }
+    to   { transform: translate(-134px, 134px); }
 }
