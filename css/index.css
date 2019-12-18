@@ -39,32 +39,42 @@
     top: -400px;
     opacity: 0.69;
     background-image: url(../images/background.png);
-    background-size: 400px 400px;
     background-repeat: repeat;
-    animation: slide 0.8s linear infinite;
 }
 
-@keyframes slide {
-    from { transform: translate(0px); }
-    to   { transform: translate(-50px, 50px); } <!-- Translate parameter has to be a multiple of (background-size / 8)) -->
+@media (min-width: 901px) {
+    .background-slider {
+        background-size: 400px 400px;
+        animation: slideFull 0.8s linear infinite;
+    }
 }
 
 @media (max-width: 900px) {
     .background-slider {
         background-size: 320px 320px;
-    }
-    @keyframes slide {
-        from { transform: translate(0px); }
-        to   { transform: translate(-40px, 40px); }
+        animation: slide900 0.8s linear infinite;
     }
 }
+
 
 @media (max-width: 600px) {
     .background-slider {
         background-size: 240px 240px;
+        animation: slide600 0.8s linear infinite;
     }
-    @keyframes slide {
-        from { transform: translate(0px); }
-        to   { transform: translate(-30px, 30px); }
-    }
+}
+
+@keyframes slideFull {
+    from { transform: translate(0px); }
+    to   { transform: translate(-50px, 50px); } <!-- Translate parameter has to be a multiple of (background-size / 8)) -->
+}
+
+@keyframes slide900 {
+    from { transform: translate(0px); }
+    to   { transform: translate(-40px, 40px); } <!-- Translate parameter has to be a multiple of (background-size / 8)) -->
+}
+
+@keyframes slide600 {
+    from { transform: translate(0px); }
+    to   { transform: translate(-30px, 30px); } <!-- Translate parameter has to be a multiple of (background-size / 8)) -->
 }
