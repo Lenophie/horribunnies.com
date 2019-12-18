@@ -40,11 +40,12 @@
 
 /* Background slider */
 .background-wrapper {
-    position: relative;
+    position: absolute;
     overflow: hidden;
     height: calc(450px - 10px + 6px); /* Video iframe height minus its relative position plus border width */
     z-index: 0;
-    top: -450px; /* Video iframe height */
+    top: 0;
+    left: 0;
 }
 
 .background-slider {
@@ -96,6 +97,9 @@
 }
 
 /* Video */
+#video-block {
+    position: relative;
+}
 #video-embed {
     display: flex;
     justify-content: center;
