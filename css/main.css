@@ -15,11 +15,6 @@
     text-decoration: underline !important;
 }
 
-.background-wrapper {
-    overflow: hidden;
-    height: 400px;
-}
-
 .no-pb {
     padding-bottom: 0 !important;
 }
