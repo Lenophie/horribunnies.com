@@ -1,0 +1,8 @@
+@font-face {
+    font-family: IndieFlower;
+    src: url(../fonts/IndieFlower-Regular.ttf)
+}
+
+.navbar-item {
+    font-family: IndieFlower, sans-serif;
+}
