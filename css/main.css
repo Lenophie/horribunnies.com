@@ -20,17 +20,10 @@
     height: 400px;
 }
 
-.background-slider {
-    position: relative;
-    width: 200vw;
-    height: 800px;
-    top: -400px;
-    background-image: url(../images/background.png);
-    background-repeat: repeat;
-    animation: slide 5s linear infinite;
+.no-pb {
+    padding-bottom: 0 !important;
 }
 
-@keyframes slide {
-    from { transform: translate(0px); }
-    to   { transform: translate(-134px, 134px); }
+.no-mb {
+    margin-bottom: 0 !important;
 }
