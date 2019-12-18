@@ -99,12 +99,13 @@
 /* Video */
 #video-block {
     position: relative;
+    z-index: 1;
 }
 #video-embed {
     display: flex;
     justify-content: center;
     position: relative;
-    z-index: 2;
+    z-index: 1;
     top: -10px;
 }
 
