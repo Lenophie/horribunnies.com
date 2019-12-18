@@ -6,6 +6,13 @@
 .navbar-item {
     font-family: IndieFlower, sans-serif;
     color: black;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.navbar-item.is-active {
+    color: #9D4476 !important;
+    text-decoration: underline !important;
 }
 
 .background-wrapper {
