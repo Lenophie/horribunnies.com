@@ -42,7 +42,7 @@
 .background-wrapper {
     position: relative;
     overflow: hidden;
-    height: calc(450px - 15px); /* Video iframe height minus its relative position */
+    height: calc(450px - 10px + 6px); /* Video iframe height minus its relative position plus border width */
     z-index: 0;
     top: -450px; /* Video iframe height */
 }
@@ -101,12 +101,10 @@
     justify-content: center;
     position: relative;
     z-index: 2;
-    top: -15px;
+    top: -10px;
 }
 
 #video-iframe {
-    border-color: white;
-    border-style: solid;
-    border-width: 10px;
-    border-radius: 20px;
+    box-shadow: 6px 6px 0 0 white, -6px -6px 0 0 white, -6px 6px 0 0 white, 6px -6px 0 0 white;
+    border-radius: 10px;
 }
