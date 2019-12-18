@@ -119,6 +119,10 @@
     color: white;
 }
 
+#bwunnies-wrap {
+    white-space: nowrap;
+}
+
 #bun-emoji {
     color: white;
     white-space: nowrap
