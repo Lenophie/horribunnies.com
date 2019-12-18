@@ -1,0 +1,32 @@
+{
+  "name": "Horribunnies",
+  "short_name": "Horribunnies",
+  "icons": [
+    {
+      "src": "/images/icons/icon16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icons/icon24x24.png",
+      "sizes": "24x24",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icons/icon32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icons/icon64x64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icons/icon96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "display": "standalone"
+}
