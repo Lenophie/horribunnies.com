@@ -22,3 +22,7 @@
 .no-mb {
     margin-bottom: 0 !important;
 }
+
+.no-pt {
+    padding-top: 0 !important;
+}
