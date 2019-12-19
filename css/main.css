@@ -42,9 +42,29 @@ footer {
 @media (max-width: 500px) {
     #footer-content {
         width: 100%;
-        position: static;
+        position: relative;
+        right: auto;
         align-items: center;
     }
+}
+
+#footer-content div {
+    position: relative;
+    top: 10px;
+}
+
+#daisies {
+    position: absolute;
+    bottom: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#daisies img {
+    max-width: 1492px;
+    max-height: 107px;
 }
 
 footer a {
