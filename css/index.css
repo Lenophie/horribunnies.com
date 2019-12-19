@@ -117,7 +117,10 @@
 
 /* lol */
 #bwunnies {
+    display: inline-block;
     color: white;
+    width: 95px;
+    text-align: center;
 }
 
 #bwunnies-wrap {
@@ -145,10 +148,16 @@
     .highlightCharacter {
         font-size: 20px;
     }
+    #bwunnies {
+        width: 80px;
+    }
 }
 
 @media (max-width: 500px) {
     .highlightCharacter {
         font-size: 16px;
+    }
+    #bwunnies {
+        width: 60px;
     }
 }
