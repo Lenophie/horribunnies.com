@@ -4,19 +4,45 @@
     z-index: 1;
 }
 
+#header-text-spacer {
+    height: 30px;
+    width: 100%;
+    background-color: #E981A6;
+    display: none;
+}
+
 #header-text {
     position: absolute;
     font-family: IndieFlower, sans-serif;
     color: black;
     width: 100%;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 4%;
+    padding-right: 4%;
     padding-bottom: 20px;
     max-width: 1440px;
     text-align: center;
     font-size: 22px;
     line-height: 29px;
-    bottom: 12px;
+    bottom: 20px;
+}
+
+@media (max-width: 740px) and (min-width: 680px), (max-width: 580px) {
+    #header-text {
+        bottom: 0;
+    }
+}
+
+@media (max-width: 515px) {
+    #header-text-spacer {
+        display: block;
+    }
+}
+
+@media (max-width: 420px) {
+    #header-text-spacer {
+        display: block;
+        height: 60px;
+    }
 }
 
 #header-logo {
@@ -29,6 +55,7 @@
     width: 100%;
     max-width: 900px;
     overflow: visible;
+    margin-bottom: -6px;
 }
 
 #horribunnies-logo {
@@ -44,7 +71,7 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 680px) {
     #header-text {
         font-size: 14px;
         line-height: 20px;
