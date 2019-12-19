@@ -1,0 +1,2 @@
+Options +Indexes
+RewriteRule /press/horribunnies /press/sheet.php?p=horribunnies [L,R]
