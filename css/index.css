@@ -42,6 +42,7 @@
 .background-wrapper {
     position: absolute;
     overflow: hidden;
+    width: 100%;
     height: calc(450px - 10px + 6px); /* Video iframe height minus its relative position plus border width */
     z-index: 0;
     top: 0;
