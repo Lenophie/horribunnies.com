@@ -5,7 +5,7 @@
 }
 
 #header-text-spacer {
-    height: 30px;
+    height: 32px;
     width: 100%;
     background-color: #E981A6;
     display: none;
@@ -41,7 +41,7 @@
 @media (max-width: 420px) {
     #header-text-spacer {
         display: block;
-        height: 60px;
+        height: 62px;
     }
 }
 
@@ -49,13 +49,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 }
 
 #horribunnies-logo-wrapper {
     width: 100%;
     max-width: 900px;
     overflow: visible;
-    margin-bottom: -6px;
+    margin-bottom: -8px;
 }
 
 #horribunnies-logo {
