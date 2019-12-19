@@ -1,8 +1,7 @@
 # horribunnies.com
 Website made with love by [Lenophie](https://twitter.com/lenophie).  
-Design by [Eva](https://twitter.com/wst_eva)
-Art by [Pakrett](https://twitter.com/himeija)
-More of her awesome art on her [website](https://himeija.com/) :3  
+Design by [Eva](https://twitter.com/wst_eva).  
+Art by [Pakrett](https://twitter.com/himeija). More of her awesome art on her [website](https://himeija.com/) :3  
 More cool code and game design from Lenophie [here](https://github.com/Lenophie) !
 
 # License
