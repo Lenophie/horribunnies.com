@@ -239,12 +239,50 @@
 #content-block-title {
     font-family: IndieFlower, sans-serif;
     color: black;
-    font-size: 22px;
-    line-height: 29px;
+    font-size: 36px;
+    line-height: 53px;
+    margin-bottom: 20px;
 }
 
 #content-block {
     padding-top: 15px;
     padding-left: 20%;
     padding-right: 20%;
+}
+
+.feature-content-block {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #9C446E;
+    color: white;
+}
+
+.feature-content-block-title {
+    font-family: IndieFlower, sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 5px;
+}
+
+.feature-content-block {
+    padding: 20px 30px 20px 30px;
+}
+
+.is-left-feature-block {
+    margin-right: 30px;
+}
+
+.is-right-feature-block {
+    margin-left: 30px;
+}
+
+@media (max-width: 900px) {
+    .is-left-feature-block {
+        margin-right: 0;
+    }
+
+    .is-right-feature-block {
+        margin-left: 0;
+    }
 }
