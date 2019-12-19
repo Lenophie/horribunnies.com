@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<game>
+	<title>Horribunnies</title>
+	<release-date>TBD</release-date>
+	<website>https://horribunnies.com/</website>
+	<press-can-request-copy>TRUE</press-can-request-copy>
+
+	<platforms>
+		<platform>
+			<name>Steam</name>
+			<link>http://www.steampowered.com/</link>
+		</platform>
+	</platforms>
+
+	<prices>
+	</prices>
+
+	<description>
+	Horribunnies is a bunny-raising game where the player gets to feed, clean and pet their bunnies. However, this care is not misplaced : the player has to carry out orders for customers who want to adopt bunnies. The player can part ways with bunnies matching specific criteria -such as their color or length of their ears- in exchange for resources. As such traits are inherited genetically, the player will selectively encourage the breeding of its bunnies !
+	</description>
+	<histories></histories>
+	<history>
+		Lenophie participated in a game-jam organized by Abiding Bridge mid-2019. There, they met Pakrett, a graphic designer, the kind of talent Lenophie had been looking for to bring their vision to life ! Bunny enthusiasts as they are, they both settled for developing a bunny-related game in a minimal amount of time, so they could tell if they liked working together. The scope of the game grew and... voilà, the team expanded with the arrival of a musician, a narrative designer and another graphic designer while the game is now announced to be released on Steam !
+	</history>
+
+	<features>
+		<feature>Bond with the cutest virtual bunnies you've ever seen, they come in all shapes and sizes but require the same amount of petting !</feature>
+		<feature>Send some bunnies for adoption so you can, in return, keep pampering to your favorite bun. :3</feature>
+		<feature>Traits are inherited genetically, breed responsibly !</feature>
+		<feature>Everything is as flashy and sweet as it can get, from lovely graphics to sugary musics !</feature>
+	</features>
+	
+	<trailers>
+	</trailers>
+	
+	<awards>
+	</awards>
+	
+	<quotes>
+	</quotes>
+	
+	<additionals>
+	</additionals>
+
+	<credits>
+		<credit>
+			<person>Lenophie</person>
+			<website>https://twitter.com/Lenophie</website>
+			<role>Initiator, Game Designer, Developer</role>
+		</credit>
+		<credit>
+			<person>Pakrett</person>
+			<website>https://himeija.com</website>
+			<role>Artistic Direction, Art</role>
+		</credit>
+		<credit>
+			<person>Eva Vesschemoët</person>
+			<website>https://www.linkedin.com/in/eva-vesschemo%C3%ABt-6b6694151/</website>
+			<role>Additional Art, Web Design</role>
+		</credit>
+		<credit>
+			<person>Valentin Bilot</person>
+			<website>https://twitter.com/vbilot</website>
+			<role>Music, Sound Design</role>
+		</credit>
+		<credit>
+			<person>Simon Trucchi</person>
+			<role>Narrative Design</role>
+		</credit>
+	</credits>
+
+	<contacts>
+		<contact>
+			<name>Inquiries</name>
+			<mail>horribunnies@gmail.com</mail>
+		</contact>
+		<contact>
+			<name>Twitter</name>
+			<link>https://twitter.com/Horribunnies</link>
+		</contact>
+		<contact>
+			<name>Facebook</name>
+			<link>https://facebook.com/Horribunnies</link>
+		</contact>
+		<contact>
+			<name>Instagram</name>
+			<link>https://instagram.com/Horribunnies</link>
+		</contact>
+		<contact>
+			<name>Youtube</name>
+			<link>https://www.youtube.com/channel/UCT6uHcP-1rH3QW7WVEEz6vg</link>
+		</contact>
+	</contacts>
+</game>

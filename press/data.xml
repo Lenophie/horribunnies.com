@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- example file containing base tags -->
+
+<game>	
+	<title>Quasiphies</title>
+	<founding-date>TBD</founding-date>
+	<website>https://horribunnies.com</website>
+	<based-in>Tourcoing, France</based-in>
+	
+	<press-contact>quasiphies@gmail.com</press-contact>
+	<phone>Ask in a mail !</phone>
+	<address>
+		<line>Abiding Bridge</line>
+		<line>Imaginarium Building 99A Boulevard Constantin Descat</line>
+		<line>59200 Tourcoing</line>
+	</address>
+
+	<socials>
+		<social>
+			<name>Lenophie's Twitter</name>
+			<link>https://twitter.com/Lenophie</link>
+		</social>
+	</socials>
+
+	<description>	
+		Quasiphies is a French video-game studio/artistic collective (which has yet to be founded!).
+		It is shaped around Lenophie's games and ideas, it gathers young talents from engineering and videogame/interactive media schools.
+		They seek to make games that tell stories through game mechanics, games that make the players question their well-informed actions and beliefs.
+		Quasiphies preaches love, inclusivity and tolerance. As such, many of its creations are designed to be cute yet weird.
+	</description>
+		
+	<histories>
+		<history>
+			<header>Horribunnies !</header>
+			<text>Lenophie participated in a game-jam organized by Abiding Bridge mid-2019. There, they met Pakrett, a graphic designer, the kind of talent Lenophie had been looking for to bring their vision to life ! Bunny enthusiasts as they are, they both settled for developing a bunny-related game in a minimal amount of time, so they could tell if they liked working together. The scope of the game grew and... voilà, the team was expanded with the arrival of a musician, a narrative designer and another graphic designer !</text>
+		</history>
+		<history>
+			<header>Road to Quasiphies</header>
+			<text>It is currently (Dec 2019) planned that Horribunnies will be released through Abiding Bridge, a publisher which doesn't require us to found a studio in order to work with us. Quasiphies remains, for now, a rallying word for the current team, a rallying word that may or may not grow into a fully-fledged artistic collective or games studio.</text>
+		</history>
+	</histories>
+
+	<trailers>
+	</trailers>
+
+	<awards>
+	</awards>
+
+	<quotes>
+	</quotes>
+
+	<press-can-request-copy>TRUE</press-can-request-copy> <!-- can be true or false -->
+	<monetization-permission>monetize</monetization-permission> <!-- can be: 	false (no video allowed),
+																			 	ask (permission on case-per-case basis),
+																			 	non-commercial (no monetization allowed),
+																			 	monetize (full permission) -->	
+	<additionals>
+		<additional>
+			<title>Abiding Bridge</title>
+			<description>Abiding Bridge is our publisher. This publisher enables french developers to publish games without creating a company. It's neat and we love them.</description>
+			<link>abidingbridge.com</link>
+		</additional>
+	</additionals>
+	
+	<credits>
+		<credit>
+			<person>Lenophie</person>
+			<website>https://twitter.com/Lenophie</website>
+			<role>Game Designer, Developer</role>
+		</credit>
+		<credit>
+			<person>Pakrett</person>
+			<website>https://himeija.com</website>
+			<role>Artistic Direction, Art</role>
+		</credit>
+		<credit>
+			<person>Eva Vesschemoët</person>
+			<website>https://www.linkedin.com/in/eva-vesschemo%C3%ABt-6b6694151/</website>
+			<role>Additional Art, Web Design</role>
+		</credit>
+		<credit>
+			<person>Valentin Bilot</person>
+			<website>https://twitter.com/vbilot</website>
+			<role>Music, Sound Design</role>
+		</credit>
+		<credit>
+			<person>Simon Trucchi</person>
+			<role>Narrative Design</role>
+		</credit>
+	</credits>
+	
+	<contacts>
+		<contact>
+			<name>Inquiries</name>
+			<mail>quasiphies@gmail.com</mail>
+		</contact>
+		<contact>
+			<name>Lenophie's Twitter</name>
+			<link>http://twitter.com/Lenophie</link>
+		</contact>
+	</contacts>
+</game>
