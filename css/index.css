@@ -313,6 +313,10 @@
     }
 }
 
+.feature-block:last-of-type {
+    margin-bottom: 100px;
+}
+
 @media (max-width: 800px) {
     .feature-block {
         display: flex;
@@ -325,5 +329,8 @@
     }
     .feature-content-block {
         padding: 20px 30px 20px 30px !important;
+    }
+    .feature-block:last-of-type {
+        margin-bottom: 50px;
     }
 }
