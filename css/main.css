@@ -19,14 +19,34 @@ body {
     text-decoration: underline !important;
 }
 
-.no-pb {
-    padding-bottom: 0 !important;
+footer {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    background-color: #F3C0D6;
 }
 
-.no-mb {
-    margin-bottom: 0 !important;
+#footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 350px;
+    height: 100%;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
 }
 
-.no-pt {
-    padding-top: 0 !important;
+@media (max-width: 500px) {
+    #footer-content {
+        width: 100%;
+        position: static;
+        align-items: center;
+    }
+}
+
+footer a {
+    color: white;
 }
