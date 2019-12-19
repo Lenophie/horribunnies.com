@@ -3,6 +3,10 @@
     src: url(../fonts/IndieFlower-Regular.ttf)
 }
 
+body {
+    overflow: hidden;
+}
+
 .navbar-item {
     font-family: IndieFlower, sans-serif;
     color: black;
