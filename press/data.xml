@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- example file containing base tags -->
 
 <game>	
@@ -31,6 +31,10 @@
 		
 	<histories>
 		<history>
+			<header>Before Horribunnies, there was... darkness !</header>
+			<text>Years before Horribunnies, Lenophie met Valentin, they both delved into game-making as a hobby, the former as a gamedev and the latter as a musician. While Lenophie got into programming, various mini-games were made by the duo. The end of their studies approaching, they started working by the end of 2018 on their first videogame aimed at commercial release. The project was paused because of how large its scope was and how motivation quickly shifted to Horribunnies. That other project ? It certainly won't gather dust for long!</text>
+		</history>
+		<history>
 			<header>Horribunnies !</header>
 			<text>Lenophie participated in a game-jam organized by Abiding Bridge mid-2019. There, they met Pakrett, a graphic designer, the kind of talent Lenophie had been looking for to bring their vision to life ! Bunny enthusiasts as they are, they both settled for developing a bunny-related game in a minimal amount of time, so they could tell if they liked working together. The scope of the game grew and... voilà, the team was expanded with the arrival of a musician, a narrative designer and another graphic designer !</text>
 		</history>
@@ -58,7 +62,12 @@
 		<additional>
 			<title>Abiding Bridge</title>
 			<description>Abiding Bridge is our publisher. This publisher enables french developers to publish games without creating a company. It's neat and we love them.</description>
-			<link>abidingbridge.com</link>
+			<link>https://abidingbridge.com</link>
+		</additional>
+		<additional>
+			<title>Mahoumu</title>
+			<description>Mahoumu is an endless-runner game with magical girl aesthetics. We made it as part of another 3-days Abiding Bridge gamejam by late 2019 !</description>
+			<link>https://lenophie.itch.io/mahoumu</link>
 		</additional>
 	</additionals>
 	
@@ -74,7 +83,7 @@
 			<role>Music, Sound Design</role>
 		</credit>
 		<credit>
-			<person>The other nice people from Horribunnies' team</person>
+			<person>The other nice people from Horribunnies'/Mahoumu's team</person>
 			<role>Maybe ?</role>
 		</credit>
 	</credits>
