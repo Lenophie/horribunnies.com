@@ -17,23 +17,25 @@
 	</prices>
 
 	<description>
-	Horribunnies is a bunny-raising game where the player gets to feed, clean and pet their bunnies. However, this care is not misplaced : the player has to carry out orders for customers who want to adopt bunnies. The player can part ways with bunnies matching specific criteria -such as their color or length of their ears- in exchange for resources. As such traits are inherited genetically, the player will selectively encourage the breeding of its bunnies !
+	Horribunnies is a bunny-raising game where the player gets to feed, clean and pet their bunnies. However, this care is not misplaced: the player has to carry out orders for customers who want to adopt bunnies. The player can part ways with bunnies matching specific criteria -such as their color or length of their ears- in exchange for resources. As such traits are inherited genetically, the player will selectively encourage the breeding of its bunnies!
 	</description>
 	<histories></histories>
 	<history>
-		Lenophie participated in a game-jam organized by Abiding Bridge mid-2019. There, they met Pakrett, a graphic designer, the kind of talent Lenophie had been looking for to bring their vision to life ! Bunny enthusiasts as they are, they both settled for developing a bunny-related game in a minimal amount of time, so they could tell if they liked working together. The scope of the game grew and... voilà, the team expanded with the arrival of a musician, a narrative designer and another graphic designer while the game is now announced to be released on Steam !
+		Lenophie participated in a game-jam organized by Abiding Bridge mid-2019. There, they met Pakrett, a graphic designer, the kind of talent Lenophie had been looking for to bring their vision to life! Bunny enthusiasts as they are, they both settled for developing a bunny-related game in a minimal amount of time, so they could tell if they liked working together. The scope of the game grew and... voilà, the team expanded with the arrival of a musician, a narrative designer and another graphic designer while the game is now announced to be released on Steam!
 	</history>
 
 	<features>
-		<feature>Bond with the cutest virtual bunnies you've ever seen, they come in all shapes and sizes but require the same amount of petting !</feature>
-		<feature>Send some bunnies for adoption so you can, in return, keep pampering to your favorite bun. :3</feature>
-		<feature>Traits are inherited genetically, breed responsibly !</feature>
-		<feature>Everything is as flashy and sweet as it can get, from lovely graphics to sugary musics !</feature>
+		<feature>Bond with the cutest virtual bunnies you've ever seen, they come in all shapes and sizes but require the same amount of petting!</feature>
+		<feature>Send some bunnies for adoption so you can, in return, keep pandering to your favorite one. :3</feature>
+		<feature>Get food, equipment and cosmetics for your buns so they can get as happy as bunnily possible!!</feature>
+		<feature>Traits are inherited genetically, breed responsibly!</feature>
+		<feature>Everything is as flashy and sweet as it can get, from lovely graphics to sugary musics!</feature>
+		<feature>... and much more we have yet to announce!</feature>
 	</features>
 	
 	<trailers>
 		<trailer>
-			<name>Horribunnies' pre-teaser</name>
+			<name>Horribunnies' teaser</name>
 			<youtube>v7YLmSMwB3A</youtube>
 		</trailer>
 	</trailers>
