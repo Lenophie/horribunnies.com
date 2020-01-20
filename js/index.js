@@ -1,4 +1,5 @@
 const bwunniesSpan = document.getElementById("bwunnies");
+const pinkWithStripesSpan = document.getElementById("pink-with-stripes");
 
 // Did you really think I would write smart code for this ?
 const bwunniesStrings = [
@@ -18,4 +19,13 @@ const UpdateBwunniesString = (nextBwunniesStringIndex) => {
     setTimeout(() => UpdateBwunniesString(nextBwunniesStringIndex), 280);
 };
 
+const BuildPinkWithStripesStyle = () => {
+    const text = pinkWithStripesSpan.textContent;
+    let styledSpan = "";
+    for (let i = 0; i < text.length; i++)
+        styledSpan += `<span class="${i % 2 === 0 ? 'inner-pink' : 'inner-light-pink'}">${text.charAt(i)}</span>`;
+    pinkWithStripesSpan.innerHTML = styledSpan;
+};
+
 UpdateBwunniesString(0);
+BuildPinkWithStripesStyle();

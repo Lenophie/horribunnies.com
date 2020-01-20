@@ -281,6 +281,27 @@
     margin-bottom: 5px;
 }
 
+.text-highlight {
+    font-weight: bold;
+    color: #F6D051;
+}
+
+#pink-with-stripes {
+    font-weight: bold;
+}
+
+.inner-pink {
+    color: #e7a7e2;
+}
+
+.inner-light-pink {
+    color: #e7c1e3;
+}
+
+.feature-content-block-text br {
+    margin-bottom: 4px;
+}
+
 .feature-content-block-text {
     font-size: 16px;
     line-height: 20px;
