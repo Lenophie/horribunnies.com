@@ -241,7 +241,18 @@
     color: black;
     font-size: 36px;
     line-height: 53px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+#content-block-title a {
+    color: #E981A6;
+}
+
+@media (max-width: 900px) {
+    #content-block-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
 }
 
 #content-block {
@@ -265,9 +276,14 @@
 
 .feature-content-block-title {
     font-family: IndieFlower, sans-serif;
-    font-size: 22px;
+    font-size: 30px;
     line-height: 32px;
     margin-bottom: 5px;
+}
+
+.feature-content-block-text {
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .feature-content-block {
