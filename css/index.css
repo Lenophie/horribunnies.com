@@ -367,7 +367,19 @@
     .feature-content-block {
         padding: 20px 30px 20px 30px !important;
     }
-    .feature-block:last-of-type {
-        margin-bottom: 50px;
-    }
+}
+
+#follow-us {
+    font-family: IndieFlower, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    line-height: 32px;
+}
+
+#follow-us a {
+    color: #dea1c4;
+}
+
+#follow-us a:hover {
+    color: #9C446E;
 }

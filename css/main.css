@@ -70,3 +70,7 @@ footer {
 footer a {
     color: white;
 }
+
+footer {
+    margin-top: 100px;
+}
