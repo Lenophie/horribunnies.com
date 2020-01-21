@@ -77,15 +77,25 @@
 
 .member-tag {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     position: relative;
-    top: 20px;
+    top: 57px;
+}
+
+.member-tag-name {
+    font-family: IndieFlower, sans-serif;
+    color: white;
+    font-size: 26px;
+    position: relative;
+    top: -40px;
 }
 
 .member-headshot {
     display: flex;
     justify-content: center;
-    margin-bottom: -30px;
+    margin-bottom: -80px;
 }
 
 @media(max-width: 900px) {
