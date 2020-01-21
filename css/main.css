@@ -74,3 +74,63 @@ footer a {
 footer {
     margin-top: 100px;
 }
+
+
+/* Background slider */
+.background-wrapper {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: calc(450px - 10px + 6px); /* Video iframe height minus its relative position plus border width */
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
+.background-slider {
+    position: relative;
+    width: 200vw;
+    height: 3000px;
+    top: -1500px;
+    opacity: 0.69;
+    z-index: 0;
+    background-image: url(../images/background.png);
+    background-repeat: repeat;
+}
+
+@media (min-width: 901px) {
+    .background-slider {
+        background-size: 400px 400px;
+        animation: slideFull 3s linear infinite;
+    }
+}
+
+@media (max-width: 900px) {
+    .background-slider {
+        background-size: 320px 320px;
+        animation: slide900 3s linear infinite;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .background-slider {
+        background-size: 240px 240px;
+        animation: slide600 3s linear infinite;
+    }
+}
+
+@keyframes slideFull {
+    from { transform: translate(0px); }
+    to   { transform: translate(-50px, 50px); } /* Translate parameter has to be a multiple of (background-size / 8)) */
+}
+
+@keyframes slide900 {
+    from { transform: translate(0px); }
+    to   { transform: translate(-40px, 40px); } /* Translate parameter has to be a multiple of (background-size / 8)) */
+}
+
+@keyframes slide600 {
+    from { transform: translate(0px); }
+    to   { transform: translate(-30px, 30px); } /* Translate parameter has to be a multiple of (background-size / 8)) */
+}
