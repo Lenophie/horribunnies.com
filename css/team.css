@@ -2,6 +2,7 @@
 #header-block {
     position: relative;
     z-index: 1;
+    margin-top: -100px;
 }
 
 #header-text-spacer {
@@ -72,13 +73,13 @@
     background: linear-gradient(308.65deg, #E981A6 -73%, #9C446E 59.21%);
     color: white;
     width: 300px;
-    height: 450px;
 }
 
 .member-box-text {
     font-family: IndieFlower, sans-serif;
     margin: 35px 30px 30px 30px;
     font-size: 16px;
+    text-align: justify;
 }
 
 .member-box-text br {
@@ -90,7 +91,18 @@
 }
 
 .member-box-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-bottom: 20px;
+}
 
+.member-box-social a {
+    margin-right: 10px;
+}
+
+.member-box-social a:last-of-type {
+    margin-right: 30px;
 }
 
 .member-tag {
