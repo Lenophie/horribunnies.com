@@ -58,7 +58,7 @@
     position: relative;
     z-index: 1;
     top: -275px;
-    width: 75%
+    width: 75%;
 }
 
 .member-box-block {
@@ -69,10 +69,28 @@
 .member-box {
     box-shadow: 10px 10px 0 0 white, -10px -10px 0 0 white, -10px 10px 0 0 white, 10px -10px 0 0 white;
     border-radius: 10px;
-    background-color: #9C446E;
+    background: linear-gradient(308.65deg, #E981A6 -73%, #9C446E 59.21%);
     color: white;
     width: 300px;
     height: 450px;
+}
+
+.member-box-text {
+    font-family: IndieFlower, sans-serif;
+    margin: 35px 30px 30px 30px;
+    font-size: 16px;
+}
+
+.member-box-text br {
+    margin-bottom: 5px;
+}
+
+.minor-text {
+    font-size: 11px;
+}
+
+.member-box-social {
+
 }
 
 .member-tag {
@@ -90,6 +108,7 @@
     font-size: 26px;
     position: relative;
     top: -40px;
+    left: 7px;
 }
 
 .member-headshot {
@@ -135,4 +154,9 @@
     .background-wrapper {
         height: calc(144px - 100px + 10px); /* member block height minus its relative position plus border width */
     }
+}
+
+.text-highlight {
+    font-weight: bold;
+    color: #F6D051;
 }
