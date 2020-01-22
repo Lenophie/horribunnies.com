@@ -179,7 +179,11 @@
 
 #pakrett-headshot {
     animation: rotatePakrett 0.8s linear infinite;
+}
 
+#other-members-block {
+    background-color: #E981A6;
+    height: 200px;
 }
 
 @keyframes rotateLenophie {
