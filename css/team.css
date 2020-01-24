@@ -253,11 +253,6 @@
     animation: rotatePakrett 0.8s linear infinite;
 }
 
-#other-members-block {
-    background-color: #E981A6;
-    height: 200px;
-}
-
 @keyframes rotateLenophie {
     0% { transform: rotate(-10deg); }
     50%   { transform: rotate(0deg); }
@@ -272,4 +267,72 @@
 
 footer {
     margin-top: 0;
+}
+
+#other-members-block {
+    background-color: #E981A6;
+    padding: 20px 18% 200px 18%;
+}
+
+.other-members-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.other-members-row .other-member-block:first-of-type {
+    margin-right: 50px;
+}
+
+.other-members-row .other-member-block:nth-of-type(2) {
+    margin-left: 50px;
+}
+
+.other-member-content {
+    background: white;
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+}
+
+.other-member-tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 57px;
+    right: 15px;
+}
+
+.other-member-tag-name {
+    font-family: IndieFlower, sans-serif;
+    color: white;
+    font-size: 26px;
+    position: relative;
+    top: -40px;
+    left: 7px;
+}
+
+.other-member-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -40px;
+    width: 100%;
+    height: 400px;
+}
+
+@media (max-width: 1000px) {
+    .other-members-row {
+        flex-direction: column;
+    }
+    .other-members-row .other-member-block:first-of-type {
+        margin-right: 0;
+    }
+
+    .other-members-row .other-member-block:nth-of-type(2) {
+        margin-left: 0;
+    }
+
 }
