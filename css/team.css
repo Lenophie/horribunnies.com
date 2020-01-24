@@ -289,10 +289,18 @@ footer {
 }
 
 .other-member-content {
+    display: flex;
+    flex-direction: row;
     background: white;
     border-radius: 7px;
     width: 100%;
     height: 100%;
+    padding: 45px 25px 45px 25px;
+}
+
+.other-member-content-left {
+    display: flex;
+    flex-direction: column;
 }
 
 .other-member-tag {
@@ -323,6 +331,10 @@ footer {
     height: 400px;
 }
 
+.other-member-image {
+    width: 140px;
+}
+
 @media (max-width: 1000px) {
     .other-members-row {
         flex-direction: column;
@@ -334,5 +346,4 @@ footer {
     .other-members-row .other-member-block:nth-of-type(2) {
         margin-left: 0;
     }
-
 }
