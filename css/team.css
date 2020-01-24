@@ -51,6 +51,7 @@
     display: flex;
     justify-content: center;
     z-index: 1;
+    margin-bottom: -213px;
 }
 
 #members-block {
@@ -196,4 +197,8 @@
     0% { transform: rotate(10deg); }
     50%   { transform: rotate(0deg); }
     100%   { transform: rotate(10deg); }
+}
+
+footer {
+    margin-top: 0;
 }
