@@ -271,13 +271,21 @@ footer {
 
 #other-members-block {
     background-color: #E981A6;
-    padding: 20px 18% 200px 18%;
+    padding: 20px 10% 90px 10%;
 }
 
 .other-members-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.other-members-row:first-of-type {
+    margin-top: -50px;
+}
+
+.other-members-row:nth-of-type(2) {
+    margin-top: -20px;
 }
 
 .other-members-row .other-member-block:first-of-type {
@@ -295,12 +303,14 @@ footer {
     border-radius: 7px;
     width: 100%;
     height: 100%;
-    padding: 45px 25px 45px 25px;
+    padding: 40px 25px 25px 25px;
 }
 
 .other-member-content-left {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .other-member-tag {
@@ -326,13 +336,42 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: -40px;
     width: 100%;
-    height: 400px;
+
+}
+
+.other-member-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.other-member-social a {
+    display: flex;
+    justify-items: center;
+}
+
+.other-member-social a:not(:last-of-type) {
+    margin-right: 10px;
 }
 
 .other-member-image {
     width: 140px;
+}
+
+.other-member-text {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.other-member-text .text-highlight {
+    color: #E981A6;
+    font-weight: bold;
+    font-style: italic;
 }
 
 @media (max-width: 1000px) {
@@ -342,8 +381,22 @@ footer {
     .other-members-row .other-member-block:first-of-type {
         margin-right: 0;
     }
-
     .other-members-row .other-member-block:nth-of-type(2) {
         margin-left: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .other-member-content {
+        flex-direction: column;
+    }
+    .other-member-content-left {
+        margin-bottom: 10px;
+    }
+    .other-member-text {
+        margin-left: 0;
+    }
+    .other-members-row:nth-of-type(2) {
+        margin-top: 0;
     }
 }
