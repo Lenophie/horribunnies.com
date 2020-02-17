@@ -310,18 +310,22 @@
     }
 }
 
-#follow-us {
+#wishlist {
+    margin-bottom: 5px;
+}
+
+#follow-us, #wishlist {
     font-family: IndieFlower, sans-serif;
     text-align: center;
     font-size: 40px;
     line-height: 32px;
 }
 
-#follow-us a {
+#follow-us a, #wishlist a {
     color: #dea1c4;
 }
 
-#follow-us a:hover {
+#follow-us a:hover, #wishlist a:hover {
     color: #9C446E;
 }
 
