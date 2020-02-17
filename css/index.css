@@ -324,3 +324,9 @@
 #follow-us a:hover {
     color: #9C446E;
 }
+
+#steam-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
