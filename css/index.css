@@ -271,6 +271,24 @@
 .feature-image-block {
     position: absolute;
     top: -20px;
+    width: 185px;
+}
+
+.feature-image-block img {
+    box-shadow: 3px 3px 0 0 white, -3px -3px 0 0 white, -3px 3px 0 0 white, 3px -3px 0 0 white;
+    border-radius: 3px;
+}
+
+.large-feature-block .feature-image-block {
+    width: 300px;
+}
+
+.large-feature-block.is-right-feature-block .feature-content-block {
+    padding-left: 300px;
+}
+
+.large-feature-block.is-left-feature-block .feature-content-block {
+    padding-right: 300px;
 }
 
 .is-left-feature-block .feature-image-block {
