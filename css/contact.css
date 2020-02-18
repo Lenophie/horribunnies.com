@@ -1,0 +1,35 @@
+#content-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+#contact-box {
+    padding: 20px 30px 20px 30px;
+    box-shadow: 10px 10px 0 0 #F3C0D6, -10px -10px 0 0 #F3C0D6, -10px 10px 0 0 #F3C0D6, 10px -10px 0 0 #F3C0D6;
+    border-radius: 10px;
+    background: linear-gradient(308.65deg, #E981A6 -73%, #9C446E 59.21%);
+    color: white;
+    width: 50%;
+    font-family: IndieFlower, sans-serif;
+    font-size: 30px;
+    text-align: justify;
+}
+
+@media (max-width: 800px) {
+    #contact-box {
+        width: 80%;
+        font-size: 16px;
+    }
+}
+
+#contact-box a {
+    color: #dea1c4;
+    font-weight: bold;
+}
+
+.text-highlight {
+    font-weight: bold;
+    color: #F6D051;
+}
