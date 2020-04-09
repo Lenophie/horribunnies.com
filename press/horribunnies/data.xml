@@ -51,6 +51,11 @@
 	</quotes>
 	
 	<additionals>
+		<additional>
+			<title>Abiding Bridge</title>
+			<description>Abiding Bridge is our publisher. This publisher enables french developers to publish games without creating a company. It's neat and we love them.</description>
+			<link>https://abidingbridge.com</link>
+		</additional>
 	</additionals>
 
 	<credits>
