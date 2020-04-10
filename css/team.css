@@ -61,6 +61,7 @@
     z-index: 1;
     top: -350px;
     width: 75%;
+    max-width: 1000px;
 }
 
 .member-box-block {
