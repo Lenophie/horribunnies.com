@@ -51,7 +51,7 @@
     display: flex;
     justify-content: center;
     z-index: 1;
-    margin-bottom: -213px;
+    margin-bottom: -288px;
 }
 
 #members-block {
@@ -59,7 +59,7 @@
     justify-content: space-around;
     position: relative;
     z-index: 1;
-    top: -275px;
+    top: -350px;
     width: 75%;
 }
 
@@ -139,7 +139,7 @@
 }
 
 .background-wrapper {
-    height: 426px;
+    height: 396px;
 }
 
 @media(max-width: 900px) {
@@ -151,7 +151,7 @@
         height: 506px;
     }
     .background-wrapper {
-        height: 522px;
+        height: 492px;
     }
 }
 
@@ -163,7 +163,7 @@
         width: 350px;
     }
     .background-wrapper {
-        height: 585px;
+        height: 630px;
     }
     #members-header {
         margin-bottom: -150px;
@@ -179,7 +179,7 @@
         width: 500px;
     }
     .background-wrapper {
-        height: 884px;
+        height: 974px;
     }
     #lenophie-member-block {
         margin-bottom: 20px;
@@ -197,7 +197,7 @@
         top: -150px;
     }
     .background-wrapper {
-        height: 934px;
+        height: 1024px;
     }
     #members-header {
         margin-bottom: -100px;
@@ -215,7 +215,7 @@
         height: 362px;
     }
     .background-wrapper {
-        height: 1102px;
+        height: 1192px;
     }
 }
 
@@ -233,7 +233,7 @@
         height: 482px;
     }
     .background-wrapper {
-        height: 1368px;
+        height: 1458px;
     }
     #members-header {
         margin-bottom: -50px;
@@ -246,23 +246,26 @@
 }
 
 #lenophie-headshot {
-    animation: rotateLenophie 1.5s linear infinite;
+    animation: rotate 1.5s linear infinite;
 }
 
 #pakrett-headshot {
-    animation: rotatePakrett 0.8s linear infinite;
+    animation: rotate 0.8s linear infinite;
 }
 
-@keyframes rotateLenophie {
-    0% { transform: rotate(-10deg); }
-    50%   { transform: rotate(0deg); }
-    100%   { transform: rotate(-10deg); }
+#pakrett-headshot img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
-@keyframes rotatePakrett {
-    0% { transform: rotate(10deg); }
-    50%   { transform: rotate(0deg); }
-    100%   { transform: rotate(10deg); }
+#pakrett-headshot img, #lenophie-headshot img {
+    height: 240px;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(-5deg); }
+    50%   { transform: rotate(5deg); }
+    100%   { transform: rotate(-5deg); }
 }
 
 footer {

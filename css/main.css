@@ -7,6 +7,17 @@ body {
     overflow: hidden;
 }
 
+/* Navbar */
+.navbar {
+    background: none;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.navbar-menu, .navbar-item, .navbar-item.is-active {
+    background: none !important;
+}
+
 .navbar-item {
     font-family: IndieFlower, sans-serif;
     color: black;
