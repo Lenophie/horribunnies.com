@@ -247,11 +247,11 @@
 }
 
 #lenophie-headshot {
-    animation: rotate 1.5s linear infinite;
+    animation: rotate 3.2s linear infinite;
 }
 
 #pakrett-headshot {
-    animation: rotate 0.8s linear infinite;
+    animation: rotate 1.5s linear infinite;
 }
 
 #pakrett-headshot img {
