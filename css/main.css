@@ -92,6 +92,20 @@ footer img {
     padding-right: 5px;
 }
 
+#website-credits {
+    text-align: left;
+}
+
+@media(max-width: 900px) {
+    #footer-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #website-credits {
+        text-align: center;
+    }
+}
+
 /* Background slider */
 .background-wrapper {
     position: absolute;
