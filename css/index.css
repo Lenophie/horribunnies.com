@@ -1,4 +1,12 @@
 /* Header */
+#hover-navbar {
+    position: absolute;
+}
+
+#base-navbar {
+    background: #FFEBF2 !important;
+}
+
 #header-block {
     position: relative;
     z-index: 1;
@@ -16,7 +24,7 @@
 }
 
 #header-logo {
-    background-color: #fde9f1;
+    background-color: #FFEBF2;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,7 +33,7 @@
 
 #horribunnies-logo-wrapper {
     width: 100%;
-    max-width: 900px;
+    max-width: 1200px;
     overflow: visible;
     margin-bottom: -8px;
 }
