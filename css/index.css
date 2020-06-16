@@ -205,18 +205,12 @@
     color: black;
     font-size: 36px;
     line-height: 53px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #content-block-title a {
     color: #E981A6;
-}
-
-@media (max-width: 900px) {
-    #content-block-title {
-        font-size: 20px;
-        line-height: 30px;
-    }
 }
 
 #content-block {
@@ -243,6 +237,13 @@
     font-size: 30px;
     line-height: 32px;
     margin-bottom: 5px;
+}
+
+@media (max-width:900px) {
+    .feature-content-block-title {
+        font-size: 24px;
+        line-height: 18px;
+    }
 }
 
 .text-highlight {
@@ -360,6 +361,15 @@
     text-align: center;
     font-size: 40px;
     line-height: 32px;
+}
+
+@media (max-width: 900px) {
+    #wishlist, #follow-us {
+        font-size: 24px;
+    }
+    footer {
+        margin-top: 50px;
+    }
 }
 
 #follow-us a, #wishlist a {
