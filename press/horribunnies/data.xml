@@ -17,7 +17,7 @@
 	</prices>
 
 	<description>
-	Horribunnies is a bunny-raising game where the player gets to feed, clean and pet their bunnies. However, this care is not misplaced: the player has to carry out orders for customers who want to adopt bunnies. The player can part ways with bunnies matching specific criteria -such as their color or length of their ears- in exchange for resources. As such traits are inherited genetically, the player will selectively encourage the breeding of its bunnies!
+		Horribunnies is a kawaii bunny-raising game... or is it? In Horribunnies, you get to pet, raise and genetically engineer cute bwunnies~~ You will help Pâquerette, the petshop's owner, take the best care of the little creatures while Ophéline, the cynical back-shop manager, will encourage you to treat your bunnies *differently* in order to boost their value. Will your bunny business become the sweetest or the most profitable?
 	</description>
 	<histories></histories>
 	<history>
@@ -28,9 +28,10 @@
 		<feature>Bond with the cutest virtual bunnies you've ever seen, they come in all shapes and sizes but require the same amount of petting!</feature>
 		<feature>Send some bunnies for adoption so you can, in return, keep pandering to your favorite one. :3</feature>
 		<feature>Get food, equipment and cosmetics for your buns so they can get as happy as bunnily possible!!</feature>
-		<feature>Traits are inherited genetically, breed responsibly!</feature>
 		<feature>Everything is as flashy and sweet as it can get, from lovely graphics to sugary musics!</feature>
-		<feature>... and much more we have yet to announce!</feature>
+		<feature>Traits are inherited genetically, breed responsibly! You don’t want cheap-looking bunnies, do you?</feature>
+		<feature>Genetically engineer your bunnies to boost their value: If you figure out how their genes work, you can land a killer bun!</feature>
+		<feature>Take an alternative approach: My methods may not be to Pâquerette’s taste, but if you stick with me, we will definitely change this pet shop.</feature>
 	</features>
 	
 	<trailers>
@@ -41,6 +42,10 @@
 		<trailer>
 			<name>Horribunnies' announcement trailer (FR)</name>
 			<youtube>Nz-MrKGMUcc</youtube>
+		</trailer>
+		<trailer>
+			<name>Ophéline reveal trailer (EN)</name>
+			<youtube>sZQ3k4sA4Jo</youtube>
 		</trailer>
 	</trailers>
 	
@@ -78,6 +83,11 @@
 			<person>Valentin Bilot</person>
 			<website>https://twitter.com/vbilot</website>
 			<role>Music, Sound Design</role>
+		</credit>
+		<credit>
+			<person>Célia Vesco</person>
+			<website>https://www.linkedin.com/in/c%C3%A9lia-vesco-76674256</website>
+			<role>Producer</role>
 		</credit>
 		<credit>
 			<person>Simon Trucchi</person>
