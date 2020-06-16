@@ -155,6 +155,50 @@
     }
 }
 
+#opheline-button {
+    display: flex;
+    justify-content: center;
+    font-family: IndieFlower, sans-serif;
+    text-align: center;
+    flex-direction: row;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#opheline-link {
+    padding: 10px;
+    width: 585px;
+    background: #9C446E;
+}
+
+#opheline-button-content {
+    color: #FFFFFF;
+}
+
+#opheline-button-content:hover {
+    color: #F6D051;
+}
+
+@media (max-width: 900px) {
+    #opheline-button {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    #opheline-link {
+        width: 460px;
+    }
+}
+
+@media (max-width: 680px) {
+    #opheline-button {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #opheline-link {
+        width: 320px;
+    }
+}
+
 /* Content block */
 #content-block-title {
     font-family: IndieFlower, sans-serif;
