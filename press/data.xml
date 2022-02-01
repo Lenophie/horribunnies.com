@@ -2,12 +2,12 @@
 <!-- example file containing base tags -->
 
 <game>	
-	<title>Quasiphies</title>
-	<founding-date>TBD</founding-date>
+	<title>Bunstack</title>
+	<founding-date>October 2019</founding-date>
 	<website>https://horribunnies.com</website>
 	<based-in>Tourcoing, France</based-in>
 	
-	<press-contact>quasiphies@gmail.com</press-contact>
+	<press-contact>bunstackgames@gmail.com</press-contact>
 	<phone>Ask in a mail!</phone>
 	<address>
 		<line>Abiding Bridge</line>
@@ -17,30 +17,19 @@
 
 	<socials>
 		<social>
-			<name>Lenophie's Twitter</name>
-			<link>https://twitter.com/Lenophie</link>
+			<name>Bunstack's Twitter</name>
+			<link>https://twitter.com/BunstackGames</link>
 		</social>
 	</socials>
 
 	<description>
-		Quasiphies is a French artistic collective.
-		It is shaped around Lenophie's games and ideas, it gathers young talents from engineering and videogame/interactive media schools.
-		They seek to make games that tell stories through game mechanics, games that make the players question their well-informed actions and beliefs.
-		Quasiphies preaches love, inclusivity and tolerance. As such, many of its creations are designed to be cute yet weird.
+		Bunstack is a French artistic collective that makes cute yet weird games!
 	</description>
 		
 	<histories>
 		<history>
-			<header>Before Horribunnies, there was... darkness!</header>
-			<text>Years before Horribunnies, Lenophie met Valentin, they both delved into game-making as a hobby, the former as a gamedev and the latter as a musician. While Lenophie got into programming, various mini-games were made by the duo. The end of their studies approaching, they started working by the end of 2018 on their first videogame aimed at commercial release. The project was paused because of how large its scope was and how motivation quickly shifted to Horribunnies. That other project? It certainly won't gather dust for long!</text>
-		</history>
-		<history>
-			<header>Horribunnies!</header>
-			<text>Lenophie participated in a game-jam organized by Abiding Bridge mid-2019. There, they met Pakrett, a graphic designer, the kind of talent Lenophie had been looking for to bring their vision to life! Bunny enthusiasts as they are, they both settled for developing a bunny-related game in a minimal amount of time, so they could tell if they liked working together. The scope of the game grew and... voilà, the team was expanded with the arrival of a musician, a narrative designer and another graphic designer!</text>
-		</history>
-		<history>
-			<header>Road to Quasiphies</header>
-			<text>It is currently (Dec 2019) planned that Horribunnies will be released through Abiding Bridge, a publisher which doesn't require us to found a studio in order to work with us. Quasiphies remains, for now, a rallying word for the current team, a rallying word that may or may not grow into a fully-fledged artistic collective or games studio.</text>
+			<header>A bunch of buns</header>
+			<text>While Lenophie and Herbie had entertained the idea of making games together for years, that wish took form during a game-jam in 2019 where Lenophie met Pakrett! We stacked together during various subsequent gamejams and started working on both Horribunnies and Pâquerette Down the Bunburrows.</text>
 		</history>
 	</histories>
 
@@ -61,41 +50,42 @@
 	<additionals>
 		<additional>
 			<title>Abiding Bridge</title>
-			<description>Abiding Bridge is our publisher. This publisher enables french developers to publish games without creating a company. It's neat and we love them.</description>
+			<description>Abiding Bridge is our publisher/co-developer. This publisher enables french developers to publish games without creating a company. It's neat and we love them.</description>
 			<link>https://abidingbridge.com</link>
 		</additional>
 		<additional>
-			<title>Mahoumu</title>
-			<description>Mahoumu is an endless-runner game with magical girl aesthetics. We made it as part of another 3-days Abiding Bridge gamejam by late 2019!</description>
-			<link>https://lenophie.itch.io/mahoumu</link>
+			<title>Pâquerette Down the Bunburrows</title>
+			<description>Pâquerette Down the Bunburrows is a puzzle game where you get outsmarted by bunnies! It started as our entry to Ludum Dare 48 and grew a life of its own beyond the jam!</description>
+			<link>https://store.steampowered.com/app/1628610/Paquerette_Down_the_Bunburrows/</link>
 		</additional>
 	</additionals>
 	
 	<credits>
-		<credit>
-			<person>Lenophie</person>
-			<website>https://twitter.com/Lenophie</website>
-			<role>Game Designer, Developer</role>
-		</credit>
 		<credit>
 			<person>Valentin Bilot</person>
 			<website>https://twitter.com/vbilot</website>
 			<role>Music, Sound Design</role>
 		</credit>
 		<credit>
-			<person>The other nice people from Horribunnies'/Mahoumu's team</person>
-			<role>Maybe?</role>
+			<person>Pakrett</person>
+			<website>https://himeija.com</website>
+			<role>Artistic Direction, Art</role>
+		</credit>
+		<credit>
+			<person>Lenophie</person>
+			<website>https://twitter.com/Lenophie</website>
+			<role>Game Design, Development</role>
 		</credit>
 	</credits>
 	
 	<contacts>
 		<contact>
 			<name>Inquiries</name>
-			<mail>quasiphies@gmail.com</mail>
+			<mail>bunstackgames@gmail.com</mail>
 		</contact>
 		<contact>
-			<name>Lenophie's Twitter</name>
-			<link>http://twitter.com/Lenophie</link>
+			<name>Bunstack's Twitter</name>
+			<link>http://twitter.com/BunstackGames</link>
 		</contact>
 	</contacts>
 </game>

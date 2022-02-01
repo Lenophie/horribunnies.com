@@ -21,7 +21,7 @@
 	</description>
 	<histories></histories>
 	<history>
-		Lenophie participated in a game-jam organized by Abiding Bridge mid-2019. There, they met Pakrett, a graphic designer, the kind of talent Lenophie had been looking for to bring their vision to life! Bunny enthusiasts as they are, they both settled for developing a bunny-related game in a minimal amount of time, so they could tell if they liked working together. The scope of the game grew and... voilà, the team expanded with the arrival of a musician, a narrative designer and another graphic designer while the game is now announced to be released on Steam!
+		Lenophie participated in a game-jam organized by Abiding Bridge mid-2019. There, they met Pakrett, a fellow bunny enthusiast that both had an itch to make a cute yet dark bunny game. With the addition of Valentin, they started working on Horribunnies! We released a short demo of the game during June 2020's Steam Fest and have been working on fleshing out the game ever since!
 	</history>
 
 	<features>
@@ -58,7 +58,7 @@
 	<additionals>
 		<additional>
 			<title>Abiding Bridge</title>
-			<description>Abiding Bridge is our publisher. This publisher enables french developers to publish games without creating a company. It's neat and we love them.</description>
+			<description>Abiding Bridge is our publisher/co-developer. This publisher enables french developers to publish games without creating a company. It's neat and we love them.</description>
 			<link>https://abidingbridge.com</link>
 		</additional>
 	</additionals>
@@ -74,25 +74,10 @@
 			<website>https://himeija.com</website>
 			<role>Artistic Direction, Art, Additional Game Design</role>
 		</credit>
-		<credit>
-			<person>Eva Vesschemoët</person>
-			<website>https://www.linkedin.com/in/eva-vesschemo%C3%ABt-6b6694151/</website>
-			<role>Art, Web Design</role>
-		</credit>
-		<credit>
+				<credit>
 			<person>Valentin Bilot</person>
 			<website>https://twitter.com/vbilot</website>
 			<role>Music, Sound Design</role>
-		</credit>
-		<credit>
-			<person>Célia Vesco</person>
-			<website>https://www.linkedin.com/in/c%C3%A9lia-vesco-76674256</website>
-			<role>Producer</role>
-		</credit>
-		<credit>
-			<person>Simon Trucchi</person>
-			<website>https://www.linkedin.com/in/simon-trucchi-4b184647</website>
-			<role>Narrative Design</role>
 		</credit>
 		<credit>
 			<person>Julie Rozaire</person>
